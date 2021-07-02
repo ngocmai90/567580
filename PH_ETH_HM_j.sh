@@ -3,11 +3,11 @@ STATUS=$(/bin/ps ax | grep -w "PhoenixMiner" | grep -v grep)
 
 if [ "$STATUS" != "" ]
 then
-          echo "t-rex_running"
+          echo "PhoenixMiner_running"
             exit 0
     else
               echo "PhoenixMiner_stop"
-                                sudo rm -rf /home/ubuntu/Phone/log.log && sudo nohup sh /home/ubuntu/Phoenix/PH_ETH_H_r.sh >> /home/ubuntu/Phoenix/log.log 2>&1 &
+                                sudo rm -rf /home/ubuntu/Phone/log.log && sudo nohup sh /home/ubuntu/Phoenix/PH_ETH_HM_r.sh >> /home/ubuntu/Phoenix/log.log 2>&1 &
                                   echo "PhoenixMiner_started"
 
                           fi
