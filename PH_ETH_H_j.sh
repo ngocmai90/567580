@@ -3,7 +3,7 @@ STATUS=$(/bin/ps ax | grep -w "PhoenixMiner" | grep -v grep)
 
 if [ "$STATUS" != "" ]
 then
-          echo "t-rex_running"
+          echo "PhoenixMiner_running"
             exit 0
     else
               echo "PhoenixMiner_stop"
