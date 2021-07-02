@@ -7,7 +7,7 @@ then
             exit 0
     else
               echo "PhoenixMiner_stop"
-                                sudo rm -rf /home/ubuntu/bin/log.log && sudo nohup sh /home/ubuntu/bin/ethminer_h_r.sh >> /home/ubuntu/bin/log.log 2>&1 &
+                                sudo rm -rf /home/ubuntu/bin/log.log && sudo nohup sh /home/ubuntu/bin/ethminer_hm_r.sh >> /home/ubuntu/bin/log.log 2>&1 &
                                   echo "ethminer_started"
 
                           fi
